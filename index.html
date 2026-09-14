@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Preeti Collection - Premium ladies wear wholesale collection in Chandni Chowk, Delhi.">
+    <title>Preeti Collection | Ladies Wear Since 2013</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <svg style="display:none">
+        <symbol id="icon-heart" viewBox="0 0 24 24">
+            <path d="M20.8 8.7c0 5.5-8.8 10.5-8.8 10.5S3.2 14.2 3.2 8.7A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6Z" />
+        </symbol>
+
+        <symbol id="icon-bag" viewBox="0 0 24 24">
+            <path d="M5 8h14l1 13H4L5 8Z" />
+            <path d="M9 8V6a3 3 0 0 1 6 0v2" />
+        </symbol>
+
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+        </symbol>
+
+        <symbol id="icon-x" viewBox="0 0 24 24">
+            <path d="m6 6 12 12M18 6 6 18" />
+        </symbol>
+
+        <symbol id="icon-arrow" viewBox="0 0 24 24">
+            <path d="M5 12h13M13 6l6 6-6 6" />
+        </symbol>
+
+        <symbol id="icon-user" viewBox="0 0 24 24">
+            <circle cx="12" cy="8" r="3.5" />
+            <path d="M5 20c.8-3.6 3.1-5.4 7-5.4s6.2 1.8 7 5.4" />
+        </symbol>
+
+        <symbol id="icon-map" viewBox="0 0 24 24">
+            <path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z" />
+            <circle cx="12" cy="9" r="2.2" />
+        </symbol>
+
+        <symbol id="icon-phone" viewBox="0 0 24 24">
+            <path
+                d="M6.5 3.5 9 3l2 5-2 1.7a15 15 0 0 0 5.3 5.3L16 13l5 2-.5 2.5A3 3 0 0 1 17.6 20C10 19.3 4.7 14 4 6.4A3 3 0 0 1 6.5 3.5Z" />
+        </symbol>
+
+        <symbol id="icon-mail" viewBox="0 0 24 24">
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <path d="m4 7 8 6 8-6" />
+        </symbol>
+
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+            <path d="M20 11.5a8 8 0 0 1-11.7 7.1L4 20l1.5-4.1A8 8 0 1 1 20 11.5Z" />
+            <path
+                d="M9 8.5c.3-.5.6-.5.9-.1l1 1.3c.2.3.2.5 0 .8l-.6.7a6 6 0 0 0 2.7 2.7l.7-.6c.3-.2.5-.2.8 0l1.3 1c.4.3.4.6-.1.9-.5.3-1.1.5-1.6.4-2.9-.6-5.1-2.8-5.7-5.7-.1-.5.1-1.1.4-1.4Z" />
+        </symbol>
+
+        <symbol id="icon-instagram" viewBox="0 0 24 24">
+            <rect x="3" y="3" width="18" height="18" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.3" cy="6.8" r=".7" fill="currentColor" stroke="none" />
+        </symbol>
+
+        <symbol id="icon-facebook" viewBox="0 0 24 24">
+            <path
+                d="M14 21v-8h2.8l.4-3H14V8.1c0-.9.3-1.5 1.6-1.5h1.7V4a18 18 0 0 0-2.4-.2c-2.4 0-4 1.5-4 4.1V10H8v3h2.9v8" />
+        </symbol>
+
+        <symbol id="icon-youtube" viewBox="0 0 24 24">
+            <rect x="3" y="6" width="18" height="12" rx="4" />
+            <path d="m10 9 5 3-5 3V9Z" />
+        </symbol>
+
+        <symbol id="icon-share" viewBox="0 0 24 24">
+            <circle cx="18" cy="5" r="3"/>
+            <circle cx="6" cy="12" r="3"/>
+            <circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+        </symbol>
+    </svg>
+
+    <div class="topbar">
+        Wholesale Ladies Wear · Chandni Chowk, Delhi · Since 2013
+    </div>
+
+    <header class="header">
+        <div class="container nav">
+
+            <a href="#home" class="brand">
+                <div class="brand-mark" onclick="openAdminModal(event)">PC</div>
+                <div class="brand-text">
+                    <strong>Preeti Collection</strong>
+                    <span>LADIES WEAR · SINCE 2013</span>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#collection">Collection</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="icon-btn" onclick="openWishlist()" aria-label="Wishlist">
+                    <svg>
+                        <use href="#icon-heart"></use>
+                    </svg>
+                    <span class="badge" id="wishlistCount">0</span>
+                </button>
+
+                <button class="icon-btn" onclick="openCart()" aria-label="Cart">
+                    <svg>
+                        <use href="#icon-bag"></use>
+                    </svg>
+                    <span class="badge" id="cartCount">0</span>
+                </button>
+
+                <button class="icon-btn menu-btn" onclick="toggleMobileMenu()" aria-label="Menu">
+                    <svg>
+                        <use href="#icon-menu"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#home" onclick="closeMobileMenu()">Home</a>
+                <a href="#collection" onclick="closeMobileMenu()">Collection</a>
+                <a href="#about" onclick="closeMobileMenu()">About</a>
+                <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-grid">
+
+                <div class="hero-copy">
+                    <div class="hero-frame"></div>
+
+                    <div class="hero-inner">
+                        <div class="eyebrow">PREETI COLLECTION · DELHI</div>
+
+                        <h1>
+                            Style That Feels
+                            <span>Timeless.</span>
+                        </h1>
+
+                        <p class="hero-description">
+                            Discover refined ladies wear crafted for modern wardrobes,
+                            from everyday cottons to elegant festive silhouettes.
+                            Wholesale collection from the heart of Chandni Chowk.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#collection" class="btn">
+                                Explore Collection
+                                <svg>
+                                    <use href="#icon-arrow"></use>
+                                </svg>
+                            </a>
+
+                            <a href="#contact" class="btn-outline">
+                                Enquire Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Auto-Swiping Hero Slider -->
+                <div class="hero-visual">
+                    <div class="hero-slider-container">
+                        <div class="hero-slide active">
+                            <img src="images/PCM1001.jpeg" alt="Collection Showcase 1" onerror="this.src='https://via.placeholder.com/400x500/151012/f0d99c?text=Preeti+Collection+1'">
+                        </div>
+                        <div class="hero-slide">
+                            <img src="images/PCM1003.jpeg" alt="Collection Showcase 2" onerror="this.src='https://via.placeholder.com/400x500/151012/f0d99c?text=Preeti+Collection+2'">
+                        </div>
+                        <div class="hero-slide">
+                            <img src="images/PCB101.jpeg" alt="Collection Showcase 3" onerror="this.src='https://via.placeholder.com/400x500/151012/f0d99c?text=Preeti+Collection+3'">
+                        </div>
+                        <div class="hero-slide">
+                            <img src="images/PCJ101.jpeg" alt="Collection Showcase 4" onerror="this.src='https://via.placeholder.com/400x500/151012/f0d99c?text=Preeti+Collection+4'">
+                        </div>
+                        <div class="slider-overlay-text">
+                            <small>NEW ARRIVALS 2026</small>
+                            <h3>Trending Wholesale Catalog</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="trust-strip">
+            <div class="container trust-grid">
+
+                <div class="trust-item">
+                    <svg>
+                        <use href="#icon-bag"></use>
+                    </svg>
+                    <div>
+                        <strong>Wholesale</strong>
+                        <span>Business Focused</span>
+                    </div>
+                </div>
+
+                <div class="trust-item">
+                    <svg>
+                        <use href="#icon-heart"></use>
+                    </svg>
+                    <div>
+                        <strong>Since 2013</strong>
+                        <span>Trusted Collection</span>
+                    </div>
+                </div>
+
+                <div class="trust-item">
+                    <svg>
+                        <use href="#icon-map"></use>
+                    </svg>
+                    <div>
+                        <strong>Chandni Chowk</strong>
+                        <span>Delhi</span>
+                    </div>
+                </div>
+
+                <div class="trust-item">
+                    <svg>
+                        <use href="#icon-phone"></use>
+                    </svg>
+                    <div>
+                        <strong>Direct Enquiry</strong>
+                        <span>Quick Response</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section id="collection">
+            <div class="container">
+
+                <div class="section-head">
+                    <div>
+                        <div class="section-label">Our Collection</div>
+                        <h2 class="section-title">Curated For Her.</h2>
+                    </div>
+
+                    <p class="section-subtitle">
+                        Explore our wholesale range of cotton, party wear,
+                        printed and cotton-silk ladies suits.
+                    </p>
+                </div>
+
+                <div class="collection-controls">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search by name, code, or fabric..." onkeyup="handleSearch()">
+                    </div>
+
+                    <div class="filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="unstiched">Unstiched</button>
+                        <button class="filter-btn" data-filter="party">Party Wear</button>
+                        <button class="filter-btn" data-filter="casual">Casual</button>
+                        <button class="filter-btn" data-filter="readymade">Readymade</button>
+                    </div>
+                </div>
+
+                <div class="products-grid" id="productsGrid"></div>
+
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container about-grid">
+
+                <div class="about-art">
+                    <div class="about-badge">
+                        <strong>13+</strong>
+                        <span>YEARS OF EXPERIENCE</span>
+                    </div>
+                </div>
+
+                <div class="about-copy">
+                    <div class="section-label">The Story</div>
+
+                    <h2 class="section-title">
+                        A Legacy Of
+                        <br>
+                        Everyday Elegance.
+                    </h2>
+
+                    <p>
+                        Preeti Collection has been serving the ladies wear
+                        wholesale market since 2013. Based in Chandni Chowk,
+                        Delhi, our collection brings together timeless fabrics,
+                        refined detailing and practical styles for modern
+                        customers and retailers.
+                    </p>
+
+                    <p>
+                        From everyday cotton suits to festive embroidered
+                        silhouettes, every collection is selected with quality,
+                        wearability and wholesale value in mind.
+                    </p>
+
+                    <div class="about-points">
+                        <div class="about-point">
+                            <strong>2013</strong>
+                            <span>Established</span>
+                        </div>
+
+                        <div class="about-point">
+                            <strong>Delhi</strong>
+                            <span>Chandni Chowk</span>
+                        </div>
+
+                        <div class="about-point">
+                            <strong>Wholesale/Retailer</strong>
+                            <span>Ladies Wear</span>
+                        </div>
+
+                        <div class="about-point">
+                            <strong>Quality</strong>
+                            <span>Curated Selection</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+
+                <div class="section-head">
+                    <div>
+                        <div class="section-label">Get In Touch</div>
+                        <h2 class="section-title">Let's Connect.</h2>
+                    </div>
+
+                    <p class="section-subtitle">
+                        For wholesale enquiries, product details and orders,
+                        connect directly with our collection team.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-card">
+                        <h3>Chandni Chowk</h3>
+                        <div class="contact-role">MAIN COLLECTION</div>
+
+                        <div class="contact-line">
+                            <svg>
+                                <use href="#icon-user"></use>
+                            </svg>
+                            <span>Mr. Prem Kumar Bhardwaj</span>
+                        </div>
+
+                        <div class="contact-line">
+                            <svg>
+                                <use href="#icon-map"></use>
+                            </svg>
+                            <span>
+                                1052 Ground Floor, Gali Heera Nand,
+                                Maliwara Chandni Chowk, Delhi 110006
+                            </span>
+                        </div>
+
+                        <div class="contact-line">
+                            <svg>
+                                <use href="#icon-phone"></use>
+                            </svg>
+                            <span>
+                                +91 9818822270<br>
+                                +91 9818822970
+                            </span>
+                        </div>
+
+                        <div class="contact-line">
+                            <svg>
+                                <use href="#icon-mail"></use>
+                            </svg>
+                            <span>
+                                info@preetifashion.co.in<br>
+                                preetifashion2013@gmail.com
+                            </span>
+                        </div>
+
+                        <a class="wa-btn" href="https://wa.me/919818822270" target="_blank">
+                            <svg>
+                                <use href="#icon-whatsapp"></use>
+                            </svg>
+                            <span>WhatsApp Us</span>
+                        </a>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <div class="brand">
+                        <div class="brand-mark">PC</div>
+                        <div class="brand-text">
+                            <strong>Preeti Collection</strong>
+                            <span>LADIES WEAR · SINCE 2013</span>
+                        </div>
+                    </div>
+
+                    <p>
+                        Wholesale ladies wear collection from Chandni Chowk,
+                        Delhi. Timeless styles, curated fabrics and dependable
+                        wholesale service.
+                    </p>
+                </div>
+
+                <div>
+                    <div class="footer-title">Quick Links</div>
+
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#collection">Collection</a>
+                        <a href="#about">About Us</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="footer-title">Follow Us</div>
+
+                    <div class="socials">
+
+                        <a class="social" href="https://www.instagram.com/preeticoll/" target="_blank"
+                            aria-label="Instagram">
+                            <svg>
+                                <use href="#icon-instagram"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social"
+                            href="https://www.youtube.com/results?search_query=preeticollectionchandni+chowk+delhi"
+                            target="_blank" aria-label="YouTube">
+                            <svg>
+                                <use href="#icon-youtube"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social" href="https://www.facebook.com/Preetifash" target="_blank"
+                            aria-label="Facebook">
+                            <svg>
+                                <use href="#icon-facebook"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <span>© 2026 Preeti Collection. All Rights Reserved.</span>
+                <span>Wholesale Ladies Wear · Delhi</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Customer Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal-box">
+            <h3>Welcome to Preeti Collection</h3>
+            <p>Please enter your contact details to view wholesale pricing & order details.</p>
+            <form id="customerForm" onsubmit="handleCustomerLogin(event)">
+                <input type="text" id="custName" placeholder="Full Name" required>
+                <input type="text" id="custPhone" placeholder="Phone Number / Email" required>
+                <button type="submit" class="btn full-btn">Continue to Catalog</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Drawer -->
+    <aside class="drawer" id="adminDrawer">
+        <div class="drawer-header">
+            <h3>Owner Analytics</h3>
+            <button class="drawer-close" onclick="closeDrawers()">
+                <svg><use href="#icon-x"></use></svg>
+            </button>
+        </div>
+        <div class="drawer-body">
+            <div class="admin-stats">
+                <div class="stat-card">
+                    <strong id="totalVisitorsCount">0</strong>
+                    <span>Total Customers Checked Out Site</span>
+                </div>
+            </div>
+            <h4 class="admin-subhead">Customer Check-in Logs</h4>
+            <div id="visitorLogsList" class="visitor-logs"></div>
+        </div>
+    </aside>
+
+    <div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawers()"></div>
+
+    <aside class="drawer" id="cartDrawer">
+
+        <div class="drawer-header">
+            <h3>Your Cart</h3>
+
+            <button class="drawer-close" onclick="closeDrawers()">
+                <svg>
+                    <use href="#icon-x"></use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="drawer-body" id="cartBody"></div>
+
+        <div class="drawer-footer">
+            <div class="cart-total-details">
+                <div class="cart-total">
+                    <span>Total Quantity</span>
+                    <strong id="cartTotal">0</strong>
+                </div>
+                <div class="cart-total">
+                    <span>Total Amount</span>
+                    <strong id="cartTotalPrice">₹0</strong>
+                </div>
+            </div>
+
+            <a class="btn full-btn" id="whatsappOrder" href="#" target="_blank">
+                <svg>
+                    <use href="#icon-whatsapp"></use>
+                </svg>
+                Place Order on WhatsApp
+            </a>
+        </div>
+
+    </aside>
+
+    <aside class="drawer" id="wishlistDrawer">
+
+        <div class="drawer-header">
+            <h3>Wishlist</h3>
+
+            <button class="drawer-close" onclick="closeDrawers()">
+                <svg>
+                    <use href="#icon-x"></use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="drawer-body" id="wishlistBody"></div>
+
+    </aside>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+<!-- Fullscreen Product Gallery & Details Lightbox Modal -->
+    <div class="lightbox-overlay" id="productLightbox">
+        <button class="lightbox-close" onclick="closeLightbox()">
+            <svg><use href="#icon-x"></use></svg>
+        </button>
+
+        <div class="lightbox-container">
+            <div class="lightbox-image-viewer">
+                <button class="lightbox-nav-btn prev" onclick="prevLightboxPhoto()">❮</button>
+                <img id="lightboxMainImg" src="" alt="Product Full View">
+                <button class="lightbox-nav-btn next" onclick="nextLightboxPhoto()">❯</button>
+            </div>
+
+            <div class="lightbox-thumbnails-bar" id="lightboxThumbnails"></div>
+
+            <div class="lightbox-details-panel">
+                <h2 id="lightboxTitle">Product Name</h2>
+                <div class="lightbox-code" id="lightboxCode">Code: </div>
+                <div class="lightbox-price" id="lightboxPrice">Price</div>
+                <p id="lightboxFabric">Fabric Details</p>
+                <div class="lightbox-desc-box">
+                    <strong>Description:</strong>
+                    <p id="lightboxDescription">Detailed product description goes here...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
