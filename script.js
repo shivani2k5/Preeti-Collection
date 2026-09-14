@@ -1,3 +1,4 @@
+// Dynamic Products Array with Multiple Images & Description
 const products = [
     {
         id: "PCM1001",
@@ -8,8 +9,11 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1001.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1001.jpeg"
+        ]
     },
     {
         id: "PCM1002",
@@ -20,8 +24,11 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1002.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1002.jpeg"
+        ]
     },
     {
         id: "PCM1003",
@@ -32,8 +39,11 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1003.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1003.jpeg"
+        ]
     },
     {
         id: "PCM1004",
@@ -44,8 +54,11 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1004.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1004.jpeg"
+        ]
     },
     {
         id: "PCM1005",
@@ -56,8 +69,11 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1005.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1005.jpeg"
+        ]
     },
     {
         id: "PCM1006",
@@ -68,8 +84,11 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1006.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1006.jpeg"
+        ]
     },
     {
         id: "PCM1007",
@@ -80,8 +99,11 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1007.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1007.jpeg"
+        ]
     },
     {
         id: "PCM1008",
@@ -92,80 +114,101 @@ const products = [
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual"],
-        image: "images/PCM1008.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Lightweight Maheshwari Silk suit with elegant traditional print designs. Top and Dupatta maheshwari silk, Bottom Silk.",
+        images: [
+            "images/PCM1008.jpeg"
+        ]
     },
     {
-        id: "PCM101",
-        code: "PCM101",
-        name: "banarsi Cotton Suit",
+        id: "PCB101",
+        code: "PCB101",
+        name: "Banarsi Cotton Suit",
         fabric: "Banarsi Cotton",
         work: "Printed",
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCB101.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Pure Banarsi Cotton fabric. Top Banarsi cotton with work,Bottom cotton,Dupatta Cotton work",
+        images: [
+            "images/PCB101.jpeg"
+        ]
     },
     {
-        id: "PCM102",
-        code: "PCM102",
-        name: "banarsi Cotton Suit",
+        id: "PCB102",
+        code: "PCB102",
+        name: "Banarsi Cotton Suit",
         fabric: "Banarsi Cotton",
         work: "Printed",
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCB102.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Pure Banarsi Cotton fabric. Top Banarsi cotton with work,Bottom cotton,Dupatta Cotton work",
+        images: [
+            "images/PCB102.jpeg"
+        ]
     },
     {
-        id: "PCM103",
-        code: "PCM103",
-        name: "banarsi Cotton Suit",
+        id: "PCB103",
+        code: "PCB103",
+        name: "Banarsi Cotton Suit",
         fabric: "Banarsi Cotton",
         work: "Printed",
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCB103.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Pure Banarsi Cotton fabric. Top Banarsi cotton with work,Bottom cotton,Dupatta Cotton work",
+        images: [
+            "images/PCB103.jpeg"
+        ]
     },
     {
-        id: "PCM104",
-        code: "PCM104",
-        name: "banarsi Cotton Suit",
+        id: "PCB104",
+        code: "PCB104",
+        name: "Banarsi Cotton Suit",
         fabric: "Banarsi Cotton",
         work: "Printed",
         price: 1675,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCB104.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Pure Banarsi Cotton fabric. Top Banarsi cotton with work,Bottom cotton,Dupatta Cotton work",
+        images: [
+            "images/PCB104.jpeg"
+        ]
     },
     {
         id: "PCJ101",
-        code: "PCM101",
+        code: "PCJ101",
         name: "Jaam Cotton Casual Suit",
         fabric: "Jaam Cotton",
         work: "Printed",
         price: 650,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCJ101.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Daily wear Jaam Cotton suit material available for wholesale distribution. Top Jaam Cotton,Bottom and Dupatta cotton.",
+        images: [
+            "images/PCJ101.jpeg"
+        ]
     },
     {
-        id: "PCM102",
-        code: "PCM102",
+        id: "PCJ102",
+        code: "PCJ102",
         name: "Jaam Cotton Casual Suit",
         fabric: "Jaam Cotton",
         work: "Printed",
         price: 650,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCJ102.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Daily wear Jaam Cotton suit material available for wholesale distribution. Top Jaam Cotton,Bottom and Dupatta cotton.",
+        images: [
+            "images/PCJ102.jpeg"
+        ]
     },
     {
         id: "PCJ103",
@@ -176,26 +219,36 @@ const products = [
         price: 650,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCJ103.jpeg"
+        category: ["casual", "unstiched"],
+        description: "Unstiched Daily wear Jaam Cotton suit material available for wholesale distribution. Top Jaam Cotton,Bottom and Dupatta cotton.",
+        images: [
+            "images/PCJ103.jpeg"
+        ]
     },
     {
-        id: "PCM104",
-        code: "PCM104",
+        id: "PCJ104",
+        code: "PCJ104",
         name: "Jaam Cotton Casual Suit",
         fabric: "Jaam Cotton",
         work: "Printed",
         price: 650,
         gst: "5% GST",
         moq: "Min Qt. 10",
-        category: ["casual","cotton"],
-        image: "images/PCJ104.jpeg"
-    },
+        category: ["casual", "unstiched"],
+        description: "Unstiched Daily wear Jaam Cotton suit material available for wholesale distribution. Top Jaam Cotton,Bottom and Dupatta cotton.",
+        images: [
+            "images/PCJ104.jpeg"
+        ]
+    }
 ];
 
 let cart = JSON.parse(localStorage.getItem("preetiCart")) || [];
 let wishlist = JSON.parse(localStorage.getItem("preetiWishlist")) || [];
+let visitorLogs = JSON.parse(localStorage.getItem("preetiVisitors")) || [];
 let currentFilter = "all";
+let searchQuery = "";
+let currentProductPhotos = [];
+let currentPhotoIndex = 0;
 
 function saveData() {
     localStorage.setItem("preetiCart", JSON.stringify(cart));
@@ -203,11 +256,13 @@ function saveData() {
 }
 
 function productImage(product) {
+    const mainImg = (product.images && product.images.length > 0) ? product.images[0] : (product.image || '');
     return `
         <img
             class="product-photo"
-            src="${product.image}"
+            src="${mainImg}"
             alt="${product.name}"
+            onclick="openProductGallery('${product.id}')"
             onerror="this.style.display='none'"
         >
     `;
@@ -222,19 +277,129 @@ function isWishlisted(id) {
     return wishlist.includes(id);
 }
 
+// Hero Slideshow Auto Swipe
+let currentSlide = 0;
+function initHeroSlideshow() {
+    const slides = document.querySelectorAll(".hero-slide");
+    if (!slides.length) return;
+    setInterval(() => {
+        slides[currentSlide].classList.remove("active");
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add("active");
+    }, 3000);
+}
+
+// Product Share Feature
+function shareProduct(id) {
+    const product = products.find(p => p.id === id);
+    if (!product) return;
+
+    const shareData = {
+        title: product.name,
+        text: `Check out ${product.name} (${product.code}) at Preeti Collection Wholesale!`,
+        url: window.location.href.split('#')[0] + `#product-${product.id}`
+    };
+
+    if (navigator.share) {
+        navigator.share(shareData).catch(() => {});
+    } else {
+        navigator.clipboard.writeText(shareData.url);
+        showToast("Product link copied to clipboard!");
+    }
+}
+
+// Fullscreen Lightbox / Product Details Gallery
+function openProductGallery(id) {
+    const product = products.find(p => p.id === id);
+    if (!product) return;
+
+    currentProductPhotos = product.images || [product.image];
+    currentPhotoIndex = 0;
+
+    document.getElementById("lightboxTitle").textContent = product.name;
+    document.getElementById("lightboxCode").textContent = `Code: ${product.code}`;
+    document.getElementById("lightboxFabric").textContent = `Fabric: ${product.fabric} | Work: ${product.work}`;
+    document.getElementById("lightboxPrice").textContent = product.price ? `₹${product.price} (${product.gst})` : 'Wholesale Enquiry';
+    document.getElementById("lightboxDescription").textContent = product.description || "No additional description available.";
+
+    renderLightboxMainImage();
+    renderLightboxThumbnails();
+
+    document.getElementById("productLightbox").classList.add("active");
+}
+
+function closeLightbox() {
+    document.getElementById("productLightbox").classList.remove("active");
+}
+
+function renderLightboxMainImage() {
+    const mainImg = document.getElementById("lightboxMainImg");
+    if (currentProductPhotos.length > 0) {
+        mainImg.src = currentProductPhotos[currentPhotoIndex];
+    }
+}
+
+function renderLightboxThumbnails() {
+    const thumbsContainer = document.getElementById("lightboxThumbnails");
+    if (currentProductPhotos.length <= 1) {
+        thumbsContainer.innerHTML = '';
+        return;
+    }
+
+    thumbsContainer.innerHTML = currentProductPhotos.map((img, idx) => `
+        <div class="thumb-box ${idx === currentPhotoIndex ? 'active' : ''}" onclick="selectLightboxPhoto(${idx})">
+            <img src="${img}" alt="Thumbnail ${idx + 1}" onerror="this.src='https://via.placeholder.com/60x60'">
+        </div>
+    `).join('');
+}
+
+function selectLightboxPhoto(index) {
+    currentPhotoIndex = index;
+    renderLightboxMainImage();
+    renderLightboxThumbnails();
+}
+
+function prevLightboxPhoto() {
+    if (currentProductPhotos.length <= 1) return;
+    currentPhotoIndex = (currentPhotoIndex - 1 + currentProductPhotos.length) % currentProductPhotos.length;
+    renderLightboxMainImage();
+    renderLightboxThumbnails();
+}
+
+function nextLightboxPhoto() {
+    if (currentProductPhotos.length <= 1) return;
+    currentPhotoIndex = (currentPhotoIndex + 1) % currentProductPhotos.length;
+    renderLightboxMainImage();
+    renderLightboxThumbnails();
+}
+
+// Search Handler
+function handleSearch() {
+    searchQuery = document.getElementById("searchInput").value.toLowerCase();
+    renderProducts();
+}
+
 function renderProducts() {
     const grid = document.getElementById("productsGrid");
 
-    const filtered = currentFilter === "all"
-        ? products
-        : products.filter(product =>
-            product.category.includes(currentFilter)
-        );
+    const filtered = products.filter(product => {
+        const matchesCategory = currentFilter === "all" || product.category.includes(currentFilter);
+        const matchesSearch = product.name.toLowerCase().includes(searchQuery) ||
+                              product.code.toLowerCase().includes(searchQuery) ||
+                              product.fabric.toLowerCase().includes(searchQuery) ||
+                              (product.description && product.description.toLowerCase().includes(searchQuery));
+        return matchesCategory && matchesSearch;
+    });
+
+    if (filtered.length === 0) {
+        grid.innerHTML = `<div class="empty-state" style="grid-column: 1/-1; padding: 40px 0;"><p>No products found matching your search.</p></div>`;
+        return;
+    }
 
     grid.innerHTML = filtered.map(product => {
-
         const quantity = getQuantity(product.id);
         const wished = isWishlisted(product.id);
+        const photoCount = (product.images && product.images.length) ? product.images.length : 1;
 
         const priceHTML = product.price
             ? `
@@ -265,19 +430,20 @@ function renderProducts() {
             `;
 
         return `
-            <article class="product-card">
-
+            <article class="product-card" id="product-${product.id}">
                 <div class="product-image-frame">
-
                     ${productImage(product)}
-
-                    <div class="product-placeholder">
-                        PC
-                    </div>
-
-                    <div class="product-tag">
-                        ${product.code}
-                    </div>
+                    <div class="product-placeholder">PC</div>
+                    <div class="product-tag">${product.code}</div>
+                    <div class="photo-count-badge">${photoCount} Photos</div>
+                    
+                    <button
+                        class="share-card-btn"
+                        onclick="shareProduct('${product.id}')"
+                        aria-label="Share"
+                    >
+                        <svg><use href="#icon-share"></use></svg>
+                    </button>
 
                     <button
                         class="wish-card-btn ${wished ? "active" : ""}"
@@ -286,39 +452,32 @@ function renderProducts() {
                     >
                         <svg><use href="#icon-heart"></use></svg>
                     </button>
-
                 </div>
 
                 <div class="product-info">
+                    <div class="product-code">${product.code}</div>
+                    <h3 class="product-name" onclick="openProductGallery('${product.id}')" style="cursor:pointer">${product.name}</h3>
 
-                    <div class="product-code">
-                        ${product.code}
-                    </div>
-
-                    <h3 class="product-name">
-                        ${product.name}
-                    </h3>
-
-                    <!-- NEW: Only Fabric + Work -->
                     <div class="product-details">
                         <span>Fabric: ${product.fabric}</span>
                         <span>Work: ${product.work}</span>
+                        ${product.description ? `<p class="short-desc">${product.description}</p>` : ''}
                     </div>
+
+                    <button class="view-gallery-btn" onclick="openProductGallery('${product.id}')">🔍 View Photos & Details</button>
 
                     <div class="product-meta">
                         <span class="meta-pill">${product.moq}</span>
-                        ${product.category.includes("cotton") ? '<span class="meta-pill">Cotton</span>' : ''}
+                        ${product.category.includes("unstiched") ? '<span class="meta-pill">unstiched</span>' : ''}
                         ${product.category.includes("party") ? '<span class="meta-pill">Party Wear</span>' : ''}
-                        ${product.category.includes("silk") ? '<span class="meta-pill">Cotton Silk</span>' : ''}
+                        ${product.category.includes("readymade") ? '<span class="meta-pill">readymade</span>' : ''}
                     </div>
 
                     <div class="product-bottom">
                         ${priceHTML}
                         ${actionHTML}
                     </div>
-
                 </div>
-
             </article>
         `;
     }).join("");
@@ -326,16 +485,11 @@ function renderProducts() {
 
 function addToCart(id) {
     const existing = cart.find(item => item.id === id);
-
     if (existing) {
         existing.quantity++;
     } else {
-        cart.push({
-            id,
-            quantity: 1
-        });
+        cart.push({ id, quantity: 1 });
     }
-
     saveData();
     renderProducts();
     updateCounts();
@@ -345,15 +499,12 @@ function addToCart(id) {
 
 function changeQuantity(id, change) {
     const item = cart.find(item => item.id === id);
-
     if (!item) return;
 
     item.quantity += change;
-
     if (item.quantity <= 0) {
         cart = cart.filter(item => item.id !== id);
     }
-
     saveData();
     renderProducts();
     updateCounts();
@@ -362,7 +513,6 @@ function changeQuantity(id, change) {
 
 function removeFromCart(id) {
     cart = cart.filter(item => item.id !== id);
-
     saveData();
     renderProducts();
     updateCounts();
@@ -377,7 +527,6 @@ function toggleWishlist(id) {
         wishlist.push(id);
         showToast("Added to wishlist");
     }
-
     saveData();
     renderProducts();
     updateCounts();
@@ -385,18 +534,15 @@ function toggleWishlist(id) {
 }
 
 function updateCounts() {
-    const cartTotal = cart.reduce(
-        (sum, item) => sum + item.quantity,
-        0
-    );
-
-    document.getElementById("cartCount").textContent = cartTotal;
+    const cartTotalQty = cart.reduce((sum, item) => sum + item.quantity, 0);
+    document.getElementById("cartCount").textContent = cartTotalQty;
     document.getElementById("wishlistCount").textContent = wishlist.length;
-    document.getElementById("cartTotal").textContent = cartTotal;
+    document.getElementById("cartTotal").textContent = cartTotalQty;
 }
 
 function renderCart() {
     const body = document.getElementById("cartBody");
+    const cartTotalPriceElem = document.getElementById("cartTotalPrice");
 
     if (cart.length === 0) {
         body.innerHTML = `
@@ -405,192 +551,194 @@ function renderCart() {
                 <p>Your cart is empty.</p>
             </div>
         `;
-
         document.getElementById("whatsappOrder").style.pointerEvents = "none";
         document.getElementById("whatsappOrder").style.opacity = ".45";
+        cartTotalPriceElem.textContent = "₹0";
         return;
     }
 
     document.getElementById("whatsappOrder").style.pointerEvents = "auto";
     document.getElementById("whatsappOrder").style.opacity = "1";
 
+    let grandTotal = 0;
+
     body.innerHTML = cart.map(item => {
+        const product = products.find(p => p.id === item.id);
+        const itemTotal = (product.price || 0) * item.quantity;
+        grandTotal += itemTotal;
 
-        const product = products.find(
-            product => product.id === item.id
-        );
-
-        const price = product.price
-            ? `₹${product.price} × ${item.quantity}`
+        const priceText = product.price
+            ? `₹${product.price} × ${item.quantity} = ₹${itemTotal}`
             : `Wholesale enquiry × ${item.quantity}`;
 
         return `
             <div class="cart-item">
-
                 <div class="cart-thumb">
                     ${productImage(product)}
                 </div>
-
                 <div class="cart-details">
-
                     <h4>${product.name}</h4>
-
-                    <small>
-                        ${product.code}
-                    </small>
-
-                    <div class="cart-price">
-                        ${price}
-                    </div>
-
+                    <small>${product.code}</small>
+                    <div class="cart-price">${priceText}</div>
                     <div class="drawer-quantity">
                         <button onclick="changeQuantity('${product.id}',-1)">−</button>
                         <span>${item.quantity}</span>
                         <button onclick="changeQuantity('${product.id}',1)">+</button>
                     </div>
-
-                    <button
-                        class="remove-btn"
-                        onclick="removeFromCart('${product.id}')"
-                    >
+                    <button class="remove-btn" onclick="removeFromCart('${product.id}')">
                         Remove
                     </button>
-
                 </div>
-
             </div>
         `;
     }).join("");
 
-    const message = cart.map(item => {
-        const product = products.find(
-            product => product.id === item.id
-        );
+    cartTotalPriceElem.textContent = `₹${grandTotal}`;
 
+    const message = cart.map(item => {
+        const product = products.find(p => p.id === item.id);
         return `${product.name} (${product.code}) - Qty: ${item.quantity}`;
     }).join("%0A");
 
-    const whatsappText =
-        `Hello Preeti Collection,%0A%0AI would like to enquire/order:%0A${message}%0A%0AThank you.`;
+    const currentUser = JSON.parse(localStorage.getItem("preetiUser")) || {};
+    const userInfo = currentUser.name ? `%0A%0ACustomer Details:%0AName: ${currentUser.name}%0APhone: ${currentUser.phone}` : '';
 
-    document.getElementById("whatsappOrder").href =
-        `https://wa.me/919818822270?text=${whatsappText}`; 
-} 
- 
-function renderWishlist() { 
-    const body = document.getElementById("wishlistBody"); 
- 
-    const items = products.filter( 
-        product => wishlist.includes(product.id) 
-    ); 
- 
-    if (items.length === 0) { 
-        body.innerHTML = ` 
-            <div class="empty-state"> 
-                <svg><use href="#icon-heart"></use></svg> 
-                <p>Your wishlist is empty.</p> 
-            </div> 
-        `; 
-        return; 
-    } 
- 
-    body.innerHTML = items.map(product => ` 
-        <div class="wishlist-item"> 
- 
-            <div class="wishlist-thumb"> 
-                ${productImage(product)} 
-            </div> 
- 
-            <div class="wishlist-details"> 
- 
-                <h4>${product.name}</h4> 
- 
-                <small> 
-                    ${product.code} 
-                </small> 
- 
-                <small> 
-                    ${product.price ? "₹" + product.price : "Wholesale Enquiry"} 
-                </small> 
- 
-                <button 
-                    class="remove-btn" 
-                    onclick="toggleWishlist('${product.id}')" 
-                > 
-                    Remove 
-                </button> 
- 
-                <button 
-                    class="add-btn" 
-                    onclick="addToCart('${product.id}')" 
-                > 
-                    Add to Cart 
-                </button> 
- 
-            </div> 
- 
-        </div> 
-    `).join(""); 
-} 
- 
-function openCart() { 
-    closeMobileMenu(); 
- 
-    document.getElementById("cartDrawer").classList.add("active"); 
-    document.getElementById("drawerOverlay").classList.add("active"); 
-} 
- 
-function openWishlist() { 
-    closeMobileMenu(); 
- 
-    document.getElementById("wishlistDrawer").classList.add("active"); 
-    document.getElementById("drawerOverlay").classList.add("active"); 
-} 
- 
-function closeDrawers() { 
-    document.getElementById("cartDrawer").classList.remove("active"); 
-    document.getElementById("wishlistDrawer").classList.remove("active"); 
-    document.getElementById("drawerOverlay").classList.remove("active"); 
-} 
- 
-function toggleMobileMenu() { 
-    document.getElementById("mobileMenu").classList.toggle("active"); 
-} 
- 
-function closeMobileMenu() { 
-    document.getElementById("mobileMenu").classList.remove("active"); 
-} 
- 
-function showToast(message) { 
-    const toast = document.getElementById("toast"); 
- 
-    toast.textContent = message; 
-    toast.classList.add("show"); 
- 
-    clearTimeout(window.toastTimer); 
- 
-    window.toastTimer = setTimeout(() => { 
-        toast.classList.remove("show"); 
-    }, 1800); 
-} 
- 
-document.querySelectorAll(".filter-btn").forEach(button => { 
- 
-    button.addEventListener("click", () => { 
- 
-        document.querySelectorAll(".filter-btn") 
-            .forEach(btn => btn.classList.remove("active")); 
- 
-        button.classList.add("active"); 
- 
-        currentFilter = button.dataset.filter; 
- 
-        renderProducts(); 
-    }); 
- 
-}); 
- 
-renderProducts(); 
-renderCart(); 
-renderWishlist(); 
+    const whatsappText = `Hello Preeti Collection,%0A%0AI would like to order:%0A${message}%0A%0ATotal Est. Amount: ₹${grandTotal}${userInfo}%0A%0AThank you.`;
+    document.getElementById("whatsappOrder").href = `https://wa.me/919818822270?text=${whatsappText}`;
+}
+
+function renderWishlist() {
+    const body = document.getElementById("wishlistBody");
+    const items = products.filter(product => wishlist.includes(product.id));
+
+    if (items.length === 0) {
+        body.innerHTML = `
+            <div class="empty-state">
+                <svg><use href="#icon-heart"></use></svg>
+                <p>Your wishlist is empty.</p>
+            </div>
+        `;
+        return;
+    }
+
+    body.innerHTML = items.map(product => `
+        <div class="wishlist-item">
+            <div class="wishlist-thumb">
+                ${productImage(product)}
+            </div>
+            <div class="wishlist-details">
+                <h4>${product.name}</h4>
+                <small>${product.code}</small>
+                <small>${product.price ? "₹" + product.price : "Wholesale Enquiry"}</small>
+                <button class="remove-btn" onclick="toggleWishlist('${product.id}')">
+                    Remove
+                </button>
+                <button class="add-btn" onclick="addToCart('${product.id}')">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    `).join("");
+}
+
+// User Tracking & Analytics
+function checkCustomerAuth() {
+    const user = localStorage.getItem("preetiUser");
+    if (!user) {
+        document.getElementById("loginModal").classList.add("active");
+    }
+}
+
+function handleCustomerLogin(e) {
+    e.preventDefault();
+    const name = document.getElementById("custName").value;
+    const phone = document.getElementById("custPhone").value;
+
+    const userData = { name, phone, time: new Date().toLocaleString() };
+    localStorage.setItem("preetiUser", JSON.stringify(userData));
+
+    visitorLogs.unshift(userData);
+    localStorage.setItem("preetiVisitors", JSON.stringify(visitorLogs));
+
+    document.getElementById("loginModal").classList.remove("active");
+    showToast(`Welcome ${name}!`);
+    renderCart();
+}
+
+function openAdminModal(e) {
+    if (e.detail === 2) {
+        renderAdminLogs();
+        document.getElementById("adminDrawer").classList.add("active");
+        document.getElementById("drawerOverlay").classList.add("active");
+    }
+}
+
+function renderAdminLogs() {
+    document.getElementById("totalVisitorsCount").textContent = visitorLogs.length;
+    const logsContainer = document.getElementById("visitorLogsList");
+    if (visitorLogs.length === 0) {
+        logsContainer.innerHTML = "<p>No visitor logs recorded yet.</p>";
+        return;
+    }
+    logsContainer.innerHTML = visitorLogs.map(v => `
+        <div class="log-card">
+            <strong>${v.name}</strong>
+            <small>${v.phone}</small>
+            <span>Joined: ${v.time}</span>
+        </div>
+    `).join("");
+}
+
+function openCart() {
+    closeMobileMenu();
+    document.getElementById("cartDrawer").classList.add("active");
+    document.getElementById("drawerOverlay").classList.add("active");
+}
+
+function openWishlist() {
+    closeMobileMenu();
+    document.getElementById("wishlistDrawer").classList.add("active");
+    document.getElementById("drawerOverlay").classList.add("active");
+}
+
+function closeDrawers() {
+    document.getElementById("cartDrawer").classList.remove("active");
+    document.getElementById("wishlistDrawer").classList.remove("active");
+    document.getElementById("adminDrawer").classList.remove("active");
+    document.getElementById("drawerOverlay").classList.remove("active");
+}
+
+function toggleMobileMenu() {
+    document.getElementById("mobileMenu").classList.toggle("active");
+}
+
+function closeMobileMenu() {
+    document.getElementById("mobileMenu").classList.remove("active");
+}
+
+function showToast(message) {
+    const toast = document.getElementById("toast");
+    toast.textContent = message;
+    toast.classList.add("show");
+    clearTimeout(window.toastTimer);
+    window.toastTimer = setTimeout(() => {
+        toast.classList.remove("show");
+    }, 1800);
+}
+
+document.querySelectorAll(".filter-btn").forEach(button => {
+    button.addEventListener("click", () => {
+        document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+        currentFilter = button.dataset.filter;
+        renderProducts();
+    });
+});
+
+// Init
+checkCustomerAuth();
+initHeroSlideshow();
+renderProducts();
+renderCart();
+renderWishlist();
 updateCounts();
